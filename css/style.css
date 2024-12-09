@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden;
+}
+#logo{
+    height: auto;
+    width: 10rem;
+    
+}
+.header{
+    position: fixed;
+    overflow: hidden; /*overflow-y hidden*/
+    z-index: 999;
+    background-color: #fff;
+}
+.navbar-nav{
+    position: relative;
+    right: 4%;
+    padding: 10px;
+}
+
+.bg_container{
+    z-index: 0;
+    height: 70vh;
+    background: url('../img/bg.png') rgba(17, 17, 17, 0.471);
+    background-position: bottom;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+div h1 {
+    position: absolute;
+    top: 27%;
+    left: 33%;
+    /*color: rgb(52, 62, 71);*/
+    font-weight: 600;
+    
+}
+
+.cities_img {
+    display: flex;
+}
+
+div > a img {
+    display: inline-block;
+    position: relative;
+    width: 38%;
+    height: auto;
+    margin: 2%;
+    padding: 2px;
+    left: 48%;
+    border: 0px solid black;
+    border-radius: 48%;
+    box-shadow: 10px 5px 26px 10px rgb(0 0 0 / 20%);
+}
+section h1{
+    display: inline-block;
+    margin: 7%;
+}
+section{
+    background-blend-mode: darken;
+}
+#img_width{
+    padding: -1px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.814);
+    margin-top: 10%;
+    padding-top: 3%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 4vh;
+    margin: 50px;
+}
+
+footer a:hover{
+    color: rgba(170, 198, 223, 0.605);
+    cursor: pointer;
+    text-align: center;
+}
